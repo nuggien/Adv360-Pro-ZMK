@@ -1,3 +1,9 @@
+macro_lock_screen: macro_lock_screen{
+compatible = "zmk,behavior-macro";
+label = "macro_lock_screen";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_COMMAND>, <&kp LEFT_ALT>, <&kp L>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
